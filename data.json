@@ -1,0 +1,26 @@
+[
+  {
+    "name": "NFS Carbon",
+    "price": 199,
+    "developer": "EA",
+    "genre": "RACE"
+  },
+  {
+    "name": "Monster Hunter: World",
+    "price": 1999,
+    "developer": "Capcom",
+    "genre": "ACTION"
+  },
+  {
+    "name": "LoL",
+    "price": 0,
+    "developer": "Riot Games",
+    "genre": "MOBA"
+  },
+  {
+    "name": "CSGO",
+    "price": 449,
+    "developer": "Valve",
+    "genre": "ACTION"
+  }
+]
