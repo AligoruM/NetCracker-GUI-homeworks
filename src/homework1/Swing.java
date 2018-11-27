@@ -11,6 +11,7 @@ import java.awt.event.WindowEvent;
 public class Swing extends JFrame {
     private GameModel gameModel;
     private JTable table;
+
     public Swing() {
         super("Game Library");
         gameModel = new GameModel();
@@ -20,11 +21,11 @@ public class Swing extends JFrame {
         setVisible(true);
     }
 
-    private void configFrame(){
+    private void configFrame() {
         setSize(400, 300);
         setLocation(150, 100);
         setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
-        setMinimumSize(new Dimension(400,300));
+        setMinimumSize(new Dimension(400, 300));
         addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent windowEvent) {
@@ -45,7 +46,7 @@ public class Swing extends JFrame {
         });
     }
 
-    private void createAndConfigTable(){
+    private void createAndConfigTable() {
         table = new JTable(gameModel);
         setLayout(new BorderLayout());
         JScrollPane jScrollPane = new JScrollPane(table);
@@ -56,7 +57,7 @@ public class Swing extends JFrame {
         table.getColumn("Price").setCellEditor(new PriceEditor(new JTextField()));
     }
 
-    private void createAndConfigButtons(){
+    private void createAndConfigButtons() {
         JPanel grid = new JPanel(new GridLayout(1, 2, 5, 0));
         JPanel flow = new JPanel(new FlowLayout(FlowLayout.RIGHT));
         flow.add(grid);
@@ -70,7 +71,20 @@ public class Swing extends JFrame {
             dia.setVisible(true);
         });
 
-        delButton.addActionListener(e -> gameModel.deleteGameByIndex(table.getSelectedRow()));
+        delButton.addActionListener(e -> {
+            if (table.getSelectedRow() != -1){
+                switch (JOptionPane.showConfirmDialog(Swing.this,
+                        "Are you sure you want to delete this game from library?", "Delete game?",
+                        JOptionPane.YES_NO_OPTION,
+                        JOptionPane.QUESTION_MESSAGE)) {
+                    case JOptionPane.YES_OPTION:
+                        gameModel.deleteGameByIndex(table.getSelectedRow());
+                        break;
+                    default:
+                        break;
+                }
+        }
+        });
 
         addButton.setToolTipText("Add some game");
         delButton.setToolTipText("Delete chosen game");
@@ -80,14 +94,18 @@ public class Swing extends JFrame {
         grid.add(delButton);
     }
 
-    private class PriceEditor extends DefaultCellEditor{
+    private class PriceEditor extends DefaultCellEditor {
         private PriceEditor(JTextField textField) {
             super(textField);
             addCellEditorListener(new CellEditorListener() {
                 @Override
                 public void editingStopped(ChangeEvent e) {
-                    if(!getCellEditorValue().toString().isEmpty() && Validation.isValidData(getCellEditorValue().toString()))
-                        gameModel.change(getCellEditorValue().toString(), table.getSelectedRow(), 3);
+                    if (!getCellEditorValue().toString().isEmpty())
+                        if(Validation.isValidData(getCellEditorValue().toString()))
+                            gameModel.change(getCellEditorValue().toString(), table.getSelectedRow(), 3);
+                        else JOptionPane.showMessageDialog(table, "Should be non-negative integer!", "Warning", JOptionPane.WARNING_MESSAGE);
+                    else JOptionPane.showMessageDialog(table, "Can not be empty!", "Warning", JOptionPane.WARNING_MESSAGE);
+
                 }
 
                 @Override
@@ -104,8 +122,9 @@ public class Swing extends JFrame {
             addCellEditorListener(new CellEditorListener() {
                 @Override
                 public void editingStopped(ChangeEvent e) {
-                    if(!getCellEditorValue().toString().isEmpty())
+                    if (!getCellEditorValue().toString().isEmpty())
                         gameModel.change(getCellEditorValue().toString(), table.getSelectedRow(), 0);
+                    else JOptionPane.showMessageDialog(table, "Can not be empty!", "Warning", JOptionPane.WARNING_MESSAGE);
                 }
 
                 @Override
@@ -122,8 +141,9 @@ public class Swing extends JFrame {
             addCellEditorListener(new CellEditorListener() {
                 @Override
                 public void editingStopped(ChangeEvent e) {
-                    if(!getCellEditorValue().toString().isEmpty())
+                    if (!getCellEditorValue().toString().isEmpty())
                         gameModel.change(getCellEditorValue().toString(), table.getSelectedRow(), 2);
+                    else JOptionPane.showMessageDialog(table, "Can not be empty!", "Warning", JOptionPane.WARNING_MESSAGE);
                 }
 
                 @Override
