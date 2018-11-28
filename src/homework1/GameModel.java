@@ -83,8 +83,8 @@ public class GameModel extends AbstractTableModel implements Serializable {
         try (Writer writer = new FileWriter("data.json")){
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
             gson.toJson(games, writer);
-        }catch(Exception e){
-            System.out.println("shit");
+        }catch(IOException e){
+            e.printStackTrace();
         }
     }
 
@@ -92,7 +92,7 @@ public class GameModel extends AbstractTableModel implements Serializable {
         try(Reader reader = new FileReader("data.json")){
             Gson gson = new Gson();
             games = gson.fromJson(reader, new TypeToken<ArrayList<Game>>(){}.getType());
-        }catch(Exception e){
+        }catch(IOException e){
             e.printStackTrace();
         }
     }

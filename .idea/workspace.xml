@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3462761c-65db-4b95-b0be-af1100d6bd10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_swinglabs_swingx_swingx_all_1_6_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetCracker GUI homeworks/homework1/GameModel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetCracker GUI homeworks/homework1/GameModel$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NetCracker GUI homeworks/homework1/GameModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetCracker GUI homeworks/homework1/GameModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetCracker GUI homeworks/homework1/Swing$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetCracker GUI homeworks/homework1/Swing$DevEditor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetCracker GUI homeworks/homework1/Swing$DevEditor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetCracker GUI homeworks/homework1/Swing$GenreEditor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetCracker GUI homeworks/homework1/Swing$GenreEditor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetCracker GUI homeworks/homework1/Swing$NameEditor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetCracker GUI homeworks/homework1/Swing$NameEditor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetCracker GUI homeworks/homework1/Swing$PriceEditor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetCracker GUI homeworks/homework1/Swing$PriceEditor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetCracker GUI homeworks/homework1/Swing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework1/Swing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/Swing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework1/GameModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/GameModel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,12 +17,12 @@
     <session id="605590797">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="5" />
+          <entry key="project.open.time.4" value="6" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -61,16 +48,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="8947" />
+          <entry key="java" value="8955" />
           <entry key="json" value="1" />
+          <entry key="txt" value="68" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8947" />
+          <entry key="JAVA" value="8955" />
           <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="70" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -78,14 +66,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homework1/Swing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="145" column="25" selection-start-line="145" selection-start-column="25" selection-end-line="145" selection-end-column="25" />
+            <state relative-caret-position="2227">
+              <caret line="167" column="36" selection-start-line="167" selection-start-column="36" selection-end-line="167" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#Swing#0;class#Swing#0" />
                 <element signature="method#configFrame#0;class#Swing#0" />
                 <element signature="e#2633#3214#0" />
               </folding>
@@ -94,33 +81,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homework1/examples/TableFTFEditDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3808#3809#0" expanded="true" />
-                <element signature="e#3857#3858#0" expanded="true" />
-                <element signature="e#3893#3894#0" expanded="true" />
-                <element signature="e#3935#3936#0" expanded="true" />
-                <element signature="e#3983#3984#0" expanded="true" />
-                <element signature="e#4030#4031#0" expanded="true" />
-                <element signature="e#4084#4085#0" expanded="true" />
-                <element signature="e#4129#4130#0" expanded="true" />
-                <element signature="e#4443#4444#0" expanded="true" />
-                <element signature="e#4501#4502#0" expanded="true" />
-                <element signature="e#6760#6761#0" expanded="true" />
-                <element signature="e#6810#6811#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homework1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="119">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#106#107#0" expanded="true" />
@@ -130,23 +93,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/homework1/GameModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="104" column="57" selection-start-line="104" selection-start-column="57" selection-end-line="104" selection-end-column="57" />
+            <state relative-caret-position="367">
+              <caret line="123" column="24" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#358#359#0" expanded="true" />
                 <element signature="e#384#385#0" expanded="true" />
                 <element signature="method#addGame#0;class#GameModel#0" />
                 <element signature="method#deleteGameByIndex#0;class#GameModel#0" />
+                <element signature="e#770#771#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
                 <element signature="method#getValueAt#0;class#GameModel#0" />
                 <element signature="method#getColumnName#0;class#GameModel#0" />
                 <element signature="method#getColumnClass#0;class#GameModel#0" />
-                <element signature="method#saveToDefaultFile#0;class#GameModel#0" />
-                <element signature="method#readFile#0;class#GameModel#0" />
-                <element signature="method#change#0;class#GameModel#0" />
               </folding>
             </state>
           </provider>
@@ -155,7 +117,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homework1/AddGameDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
+            <state relative-caret-position="782">
               <caret line="60" column="124" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="124" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -206,12 +168,12 @@
         <option value="$PROJECT_DIR$/data.json" />
         <option value="$PROJECT_DIR$/src/homework1/Game.java" />
         <option value="$PROJECT_DIR$/src/homework1/Main.java" />
-        <option value="$PROJECT_DIR$/src/homework1/GameModel.java" />
         <option value="$PROJECT_DIR$/src/homework1/examples/Main.java" />
         <option value="$PROJECT_DIR$/src/homework1/examples/TableToolTipsDemo.java" />
         <option value="$PROJECT_DIR$/src/homework1/examples/ButtonPopupSample.java" />
         <option value="$PROJECT_DIR$/src/homework1/examples/TableFTFEditDemo.java" />
         <option value="$PROJECT_DIR$/src/homework1/Swing.java" />
+        <option value="$PROJECT_DIR$/src/homework1/GameModel.java" />
       </list>
     </option>
   </component>
@@ -233,6 +195,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,7 +234,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,7 +243,7 @@
     <property name="SearchEverywhereHistoryKey" value="Jframe&#9;PSI&#9;JAVA://javax.swing.JFrame" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543313780312" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543313831320" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Swing-homework-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -404,12 +366,22 @@
       <workItem from="1543253084213" duration="8658000" />
       <workItem from="1543295296761" duration="8635000" />
       <workItem from="1543307348306" duration="607000" />
-      <workItem from="1543308171194" duration="5602000" />
+      <workItem from="1543308171194" duration="5702000" />
+      <workItem from="1543383893794" duration="400000" />
+      <workItem from="1543384428523" duration="104000" />
     </task>
+    <task id="LOCAL-00001" summary="Added confirm dialog for deleting and warnings for editing">
+      <created>1543313874303</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543313874303</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50808000" />
+    <option name="totallyTimeSpent" value="51412000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,7 +396,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15618336" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15938166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -433,7 +405,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,7 +413,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -489,6 +461,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added confirm dialog for deleting and warnings for editing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added confirm dialog for deleting and warnings for editing" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/homework1.java" />
@@ -598,27 +574,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
           <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homework1/Swing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2227">
+          <caret line="167" column="36" selection-start-line="167" selection-start-column="36" selection-end-line="167" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3808#3809#0" expanded="true" />
-            <element signature="e#3857#3858#0" expanded="true" />
-            <element signature="e#3893#3894#0" expanded="true" />
-            <element signature="e#3935#3936#0" expanded="true" />
-            <element signature="e#3983#3984#0" expanded="true" />
-            <element signature="e#4030#4031#0" expanded="true" />
-            <element signature="e#4084#4085#0" expanded="true" />
-            <element signature="e#4129#4130#0" expanded="true" />
-            <element signature="e#4443#4444#0" expanded="true" />
-            <element signature="e#4501#4502#0" expanded="true" />
-            <element signature="e#6760#6761#0" expanded="true" />
-            <element signature="e#6810#6811#0" expanded="true" />
+            <element signature="method#configFrame#0;class#Swing#0" />
+            <element signature="e#2633#3214#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/homework1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="119">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#106#107#0" expanded="true" />
@@ -627,29 +600,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/homework1/GameModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="104" column="57" selection-start-line="104" selection-start-column="57" selection-end-line="104" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="method#addGame#0;class#GameModel#0" />
-            <element signature="method#deleteGameByIndex#0;class#GameModel#0" />
-            <element signature="method#getValueAt#0;class#GameModel#0" />
-            <element signature="method#getColumnName#0;class#GameModel#0" />
-            <element signature="method#getColumnClass#0;class#GameModel#0" />
-            <element signature="method#saveToDefaultFile#0;class#GameModel#0" />
-            <element signature="method#readFile#0;class#GameModel#0" />
-            <element signature="method#change#0;class#GameModel#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/homework1/AddGameDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
+        <state relative-caret-position="782">
           <caret line="60" column="124" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="124" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -658,15 +611,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/homework1/Swing.java">
+    <entry file="file://$PROJECT_DIR$/src/homework1/GameModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="145" column="25" selection-start-line="145" selection-start-column="25" selection-end-line="145" selection-end-column="25" />
+        <state relative-caret-position="367">
+          <caret line="123" column="24" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Swing#0;class#Swing#0" />
-            <element signature="method#configFrame#0;class#Swing#0" />
-            <element signature="e#2633#3214#0" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="method#addGame#0;class#GameModel#0" />
+            <element signature="method#deleteGameByIndex#0;class#GameModel#0" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="method#getValueAt#0;class#GameModel#0" />
+            <element signature="method#getColumnName#0;class#GameModel#0" />
+            <element signature="method#getColumnClass#0;class#GameModel#0" />
           </folding>
         </state>
       </provider>
